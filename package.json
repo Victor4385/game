@@ -1,14 +1,12 @@
 {
   "name": "three.js-template",
   "version": "1.0.0",
-  "description": "",
-      "scripts": {
-            "start": "node index.js"
-          }
+  "description": "", 
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack-dev-server --config ./bundler/webpack.dev.js",
     "watch": "webpack --watch --config ./bundler/webpack.config.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
